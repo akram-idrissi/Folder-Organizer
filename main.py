@@ -30,12 +30,12 @@ def main() :
     path = sys.argv[1]
     if not validate_path(path) : return
 
-    print('Cleaning has been started !!')
-
     os.chdir(path)
     mkdir(DIRNAME_PATTERN)
 
     try:
+        print('Cleaning has been started !!')
+        
         for file in os.listdir():
             if os.path.isdir(file):
                 if not file.startswith('.') and file != DIRNAME_PATTERN: 
