@@ -15,11 +15,16 @@ Replace `/path/to/your/folder` with the absolute path to the folder you want to 
 ## How to Run
 1. Clone or download the repository.
 
-2. Open a terminal or command prompt.
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-3. Navigate to the directory containing the script.
+3. Open a terminal or command prompt.
 
-4. Run the script with the following command:
+4. Navigate to the directory containing the script.
+
+5. Run the script with the following command:
 ```bash
 python main.py /path/to/your/folder
 ```
